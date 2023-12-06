@@ -1,0 +1,436 @@
+body{
+    font-family: Helevetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    background-color: #E6DA8F;
+	padding: 0;
+	border: none;
+}
+
+
+header{
+    background-color: #4B9036;
+}
+nav {
+    background-color: #FDF9E0;
+    margin: auto;
+    padding-top: 1px; 
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 1em;
+	text-align: center;
+}
+a {
+    background-color: none;
+    padding: 10px;
+    border-radius: 1em;
+    color: #12503B;
+    text-decoration: none;
+}
+nav ul li a:hover, nav ul li a:focus {
+  color: white;
+  background-color: #4B9036;
+  font-weight: bold;
+}
+
+ol {
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+ul{
+    list-style-type: none;
+    font-weight: bold;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 24px;
+	 color: #12503B;
+}
+
+nav li{
+    display: inline;
+    margin-left: 50px;
+}
+
+#list {
+	color: #6C7900;
+	font-weight: lighter;
+	list-style-type: square;
+	width: auto;
+}
+
+.ingredients {
+	color:#6C7900;
+	background-color: white;
+	padding: 50px;
+	width: auto;
+}
+
+#top {
+	display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+	width: auto;
+}
+
+#bottom {
+	padding: 100px 300px;
+	background-color: #12503B;
+	color: white;
+	width: auto;
+	height: 800px;
+}
+button {
+    background-color: #BEE05A;
+	border: 2px solid black;
+	border-radius: 10px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button a:hover, button a:focus {
+  color: white;
+  background-color: #25718F;
+  font-weight: bold;
+}
+
+#button{
+    align-content: center;
+    padding-bottom: 0px;
+}
+
+h1{
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+h4{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+
+}
+
+bq{
+    font-size: 30px;
+    color: white;
+    font-family: Helevetica, sans-serif;
+    text-align: center;
+}
+#mission {
+	display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+}
+#missiontext {
+    width: 500px;
+	padding-top: 50px;
+    padding-left: 150px;
+    color: #12503B;
+	background-color: #E6DA8F;
+	text-align: center;
+}
+
+#leaf {
+	width: 757px;
+	height: 894px;
+	background-image: url("Images/AdobeStock_62388841.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#title{
+	background-image: url("Images/gummies.jpeg");
+	background-position: left bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+    width: auto;
+    height: 503px;
+    border: none;
+    display: flex;
+	color: white;
+}
+
+#banner {
+	background-color: white;
+	margin: auto;
+	width: auto;
+	height: 100px;
+	border: none;
+	text-align: center;
+	color: #2A8800;
+}
+
+.recipead {
+	width: 265px;
+	height: 476px;
+	align-items: center;
+}
+
+.medtext {
+	color: #2A8800;
+	text-align: left;
+	border: none;
+	width: 900px;
+	margin-left: 50px;
+	background-image: url("Images/AdobeStock_64990477.jpeg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#medicalfacts {
+	padding-top: 100px;
+	background-color: white;
+	background-image: url("Images/AdobeStock_64990477.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 550px;
+	width: auto;
+}
+
+#marijuana {
+	display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+	width: auto;
+}
+#butter {
+	border: 2px solid black;
+	border-radius: 57px;
+	width: 236px;
+	height: 347px;
+	background-image: url("Images/Cannabutter-Steak-by-Emily-Kyle7-1024x1536.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#brownies {
+	border: 2px solid black;
+	border-radius: 57px;
+	width: 236px;
+	height: 347px;
+	background-image: url("Images/AdobeStock_647107787.jpeg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#gummies {
+	border: 2px solid black;
+	border-radius: 57px;
+	width: 236px;
+	height: 347px;
+	background-image: url("Images/gummies.jpeg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#dessert {
+	border: 2px solid black;
+	border-radius: 57px;
+	width: 236px;
+	height: 347px;
+	background-image: url("Images/AdobeStock_625529289.jpeg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#entree {
+	border: 2px solid black;
+	border-radius: 57px;
+	width: 236px;
+	height: 347px;
+	background-image: url("Images/Cannabutter-Steak-by-Emily-Kyle7-1024x1536.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#oils {
+	border: 2px solid black;
+	border-radius: 57px;
+	width: 236px;
+	height: 347px;
+	background-image: url("Images/infused-smoothie-1.jpg");
+	background-position: right;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#drinks {
+	border: 2px solid black;
+	border-radius: 57px;
+	width: 236px;
+	height: 347px;
+	background-image:url("Images/infused-smoothie-2.jpg");
+	background-position: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#legal {
+	border-radius: 57px;
+	width: 272px;
+	height: 278px;
+	background-color: #2A8800;
+	color: white;
+	text-align: center;
+}
+
+#medical {
+	border-radius: 57px;
+	width: 272px;
+	height: 278px;
+	background-color: #4B9036;
+	color: white;
+	text-align: center;
+}
+
+#limits {
+	border-radius: 57px;
+	width: 272px;
+	height: 278px;
+	background-color: #98CF7F;
+	color: #2A8800;
+	text-align: center;
+}
+
+#illegal {
+	border-radius: 57px;
+	width: 272px;
+	height: 278px;
+	background-color: #CEF0BF;
+	color: #2A8800;
+	text-align: center;
+}
+
+#box3{
+	background-color: #12503B;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	width: auto;
+	height: 250px;
+}
+
+#ads {
+	display: flex;
+    flex-direction: row;
+	padding: 50px;
+	margin: 50px;
+	justify-content: space-between;
+	width: auto;
+}
+
+#laws {
+	display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+	width: auto;
+	background-color: #12503B;
+	border: none;
+}
+#lawtext {
+	width: auto;
+	height: 300px;
+	border: none;
+	margin-left: 300px;
+	margin-right: 300px;
+	text-align: center;
+}
+#text {
+	margin: 50px 100px;
+	text-align: center;
+}
+
+
+#options{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    padding: 10px;
+
+}
+
+#images {
+     display: flex;
+    flex: row;
+    width: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#contactbox{
+    background-image: url(Images/AdobeStock_4366720.jpeg);
+    padding: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 850px;
+    font-family: sans-serif;
+    color: #707070;
+    text-align: right;
+}
+
+#contactform{
+    margin-right: 100px;
+    margin-left: 1450px;
+    background-color: #67C5B5;
+    padding: 20px;
+    color: white;
+    text-align: left;
+    padding-bottom: 100px;
+    
+}
+
+#generalinfo{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-evenly;
+}
+
+#types {
+    background-color: #25718F;
+    padding: 20px;
+    border-radius: 100em;
+    color: white;
+}
+
+footer{
+    background-color: #4B9036;
+    border: none;
+    padding: 10px;
+    margin: 0;
+    font-family: Helevetica, sans-serif;
+    font-size: 15px;
+    color: white; 
+}
